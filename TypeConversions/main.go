@@ -7,4 +7,5 @@ import (
 func main() {
 
 	strtoint.Convert()
+	strtoint.Convert1()
 }

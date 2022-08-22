@@ -4,22 +4,22 @@ import "fmt"
 
 func main() {
 
-	// Değişken Tanımlama Yöntemi 1
+	// Variable Definition Method 1
 
-	var degisken string
-	degisken = "Merhaba Go! - Değişken 1"
-	fmt.Println(degisken)
-
-	fmt.Println("---------------------------------------------------------------------------- ")
-
-	// Değişken Tanımlama Yöntemi 2
-
-	var degisken1 = "Merhaba Go! - Değişken 2"
-	fmt.Println(degisken1)
+	var exampleVariable string
+	exampleVariable = "Hello Go! - Variable 1"
+	fmt.Println(exampleVariable)
 
 	fmt.Println("---------------------------------------------------------------------------- ")
 
-	// Değişken Tanımlama Yöntemi 3
+	// Variable Definition Method 2
+
+	var exampleText = "Hello Go! - Variable 2"
+	fmt.Println(exampleText)
+
+	fmt.Println("---------------------------------------------------------------------------- ")
+
+	// Variable Definition Method 3
 	var a, b, c int
 	a = 4
 	b = 5
@@ -31,15 +31,15 @@ func main() {
 
 	fmt.Println("---------------------------------------------------------------------------- ")
 
-	// Değişken Tanımlama Yöntemi 4
+	// Variable Definition Method 4
 	var d, e, f int = 15, 35, 56
 
 	fmt.Println(d, e, f)
 
 	fmt.Println("---------------------------------------------------------------------------- ")
 
-	// Değişken Tanımlama Yöntemi 5
-	var j, k, l, m = 15, true, 5.6, "Metin"
+	// Variable Definition Method 5
+	var j, k, l, m = 15, true, 5.6, "Example String"
 
 	fmt.Println(j, k, l, m)
 

@@ -44,4 +44,11 @@ func main() {
 	fmt.Println(j, k, l, m)
 
 	fmt.Println("---------------------------------------------------------------------------- ")
+
+	// Variable Definition Method 6
+	x, y, z := true, 5.6, "String Variable"
+
+	fmt.Println(x, y, z)
+
+	fmt.Println("---------------------------------------------------------------------------- ")
 }

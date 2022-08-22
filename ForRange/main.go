@@ -32,4 +32,18 @@ func main() {
 	Array Item  4  Value is  5
 	*/
 
+	/* Range with Map  */
+
+	cities := map[string]string{"Turkey": "İstanbul", "Italy": "Palermo", "Poland": "Warsaw", "Germany": "Mannheim"}
+
+	for i, v := range cities {
+		fmt.Println("An example city of ", i, " is ", v)
+	}
+
+	/* OUTPUTS
+	An example city of  Turkey  is  İstanbul
+	An example city of  Italy  is  Palermo
+	An example city of  Poland  is  Warsaw
+	An example city of  Germany  is  Mannheim
+	*/
 }

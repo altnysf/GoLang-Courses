@@ -8,4 +8,5 @@ func main() {
 
 	strtoint.Convert()
 	strtoint.Convert1()
+	strtoint.Cast()
 }

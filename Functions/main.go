@@ -11,4 +11,15 @@ func main() {
 	println(" ------------------------------------------------------ ")
 	funcexamples.Example4() // OUTPUT : Hello Go Developer.
 	println(" ------------------------------------------------------ ")
+	funcexamples.Defering()
+	/* OUTPUT :
+	Connection Open : false
+	Connected to database !
+	Defering Disconnect !
+	Connection Open : true
+	Doing Something
+	Disconnected to database !
+	Connection Open : false
+	*/
+	println(" ------------------------------------------------------ ")
 }

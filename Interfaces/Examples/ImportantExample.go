@@ -138,7 +138,7 @@ func (_ Merc) Stop() bool {
 
 func (x *Merc) Information() string {
 	ret := "\t" + x.Brand + " " + x.Model + "\n" + "\t" + "Color : " + x.Color + "\n" + "\t" + "Speed : " + strconv.Itoa(x.Speed) + "\n" + "\t" + "Price : " + strconv.FormatFloat(x.Price, 'g', -1, 64) + " Million $"
-	Add := "Yes"
+	Add := "No"
 	if x.Special {
 		ret += "\n" + "\t" + "Special : " + Add
 	}

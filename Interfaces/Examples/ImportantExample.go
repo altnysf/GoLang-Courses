@@ -116,7 +116,7 @@ func (_ Ferrari) Run() bool {
 }
 
 func (_ Ferrari) Stop() bool {
-	return true
+	return false
 }
 
 func (x *Ferrari) Information() string {

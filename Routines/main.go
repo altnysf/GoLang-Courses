@@ -6,6 +6,6 @@ import (
 )
 
 func main() {
-	routinesexample.Example()
+	go routinesexample.Example()
 	time.Sleep(100 * time.Millisecond)
 }
